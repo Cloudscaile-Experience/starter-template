@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "tenant": "cloudscaile",
+  "extensionName": "starterTemplateExperience",
+  "displayName": "Starter Template Experience",
+  "description": "Starter template experience backend scaffold",
+  "backend": {
+    "js": {
+      "kafka": {
+        "required": false
+      },
+      "database": []
+    }
+  }
+}
