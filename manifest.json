@@ -4,6 +4,18 @@
   "extensionName": "starterTemplateExperience",
   "displayName": "Starter Template Experience",
   "description": "Starter template experience backend scaffold",
+  "web": {
+    "scope": "remote",
+    "remoteFileName": "remoteEntry.js",
+    "modules": [
+      {
+        "name": "Hello World",
+        "description": "A simple Hello World module",
+        "module": "./HelloWorld",
+        "size": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      }
+    ]
+  },
   "backend": {
     "js": {
       "kafka": {
