@@ -15,6 +15,7 @@ import {
   toast
 } from 'cs-ext-utils';
 import type { Store } from 'redux';
+import { APP_CONFIG } from './appConfig';
 
 // Type for extension object returned by getExtension
 type Extension = ReturnType<typeof getExtension>;
@@ -71,4 +72,7 @@ class ExtensionManager {
 }
 
 export default ExtensionManager;
-export const extensionManager = new ExtensionManager('navya', 'dashboard');
+export const extensionManager = new ExtensionManager(
+  APP_CONFIG.TENANT_NAME,
+  APP_CONFIG.EXTENSION_NAME
+);
