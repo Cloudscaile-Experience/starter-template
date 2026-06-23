@@ -31,7 +31,7 @@ class ExtensionManager {
   }
 
   getExtAxios(config: ExtAxiosConfig = {}): AxiosInstance {
-    return getExtAxios(this.extension, { ...config, type: 'py' });
+    return getExtAxios(this.extension, { ...config });
   }
 
   getEventBus(): EventBus {
