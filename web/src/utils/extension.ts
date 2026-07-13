@@ -13,7 +13,7 @@ import {
   injectReducers,
   registerTranslation,
   toast
-} from 'cs-ext-utils';
+} from '@cloudscaile-eng/web-ext-utils';
 import type { Store } from 'redux';
 import { APP_CONFIG } from './appConfig';
 
