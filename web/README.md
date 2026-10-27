@@ -4,8 +4,9 @@ React 19 micro-frontend that exposes a `HelloWorld` module through Webpack 5 Mod
 The cs-portal shell loads `remoteEntry.js` at runtime and mounts the module into a grid slot. It is
 never the root application.
 
-See the [top-level README](../README.md) for the manifest, the local three-server setup and the
-Designer upload flow.
+See the [top-level README](../README.md) for packaging and the Designer upload flow.
+
+AI coding assistants: see [CLAUDE.md](CLAUDE.md) and the skills in `.claude/skills/`.
 
 ---
 

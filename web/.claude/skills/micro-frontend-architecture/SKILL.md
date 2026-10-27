@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+name: micro-frontend-architecture
 description: How this micro-frontend reaches shell (host) services through @cloudscaile-eng/web-ext-utils, and the Module Federation contract it must honour.
 ---
 

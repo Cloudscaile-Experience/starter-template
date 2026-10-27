@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+name: universal-coding-standards
 description: Universal coding standards for every file in this micro-frontend project. Covers npm conventions, TypeScript, Biome, commit discipline, and architecture patterns. Read this before touching any file.
 ---
 
@@ -13,17 +13,17 @@ description: Universal coding standards for every file in this micro-frontend pr
 ## 1. Project Overview
 
 ```
-starter-template/
-├── manifest.json              ← extension identity, exposed modules, backend needs
-├── build.sh                   ← packages the last commit for upload in the Designer
-├── js/                        ← Express backend
-└── web/                       ← frontend project root (Webpack 5 + React 19)
-    ├── src/                   ← source code
-    ├── webpack/               ← common / dev / prod configs (Module Federation lives in common)
-    ├── biome.json             ← Biome lint + format config
-    ├── package.json           ← npm scripts, dependencies
-    └── package-lock.json      ← npm lockfile (must be committed)
+web/                           ← frontend project root (Webpack 5 + React 19)
+├── src/                       ← source code
+├── webpack/                   ← common / dev / prod configs (Module Federation lives in common)
+├── .claude/skills/            ← AI assistant skills (this file included)
+├── CLAUDE.md                  ← AI assistant instructions
+├── biome.json                 ← Biome lint + format config
+├── package.json               ← npm scripts, dependencies
+└── package-lock.json          ← npm lockfile (must be committed)
 ```
+
+The extension's `manifest.json` and `build.sh` live one level up, next to the backend folder.
 
 ---
 

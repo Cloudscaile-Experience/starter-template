@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+name: design-guidelines
 description: Design guidelines for Material-UI (MUI). Focuses on using the tenant's host theme tokens instead of fixed colours, rounded layout, and component usage via the `sx` prop.
 ---
 

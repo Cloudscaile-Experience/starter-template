@@ -1,5 +1,5 @@
 ---
-trigger: always_on
+name: micro-frontend-integration
 description: Apply when adding features, making API calls, managing state, styling or routing, so the code integrates correctly with the cs-portal shell.
 ---
 
