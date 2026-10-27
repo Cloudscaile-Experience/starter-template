@@ -3,14 +3,14 @@
   "tenant": "cloudscaile",
   "extensionName": "starterTemplateExperience",
   "displayName": "Starter Template Experience",
-  "description": "Starter template experience backend scaffold",
+  "description": "Minimal Cloudscaile web extension: one React 19 module served over Module Federation, plus an Express backend. Copy it to start a new extension.",
   "web": {
     "scope": "remote",
     "remoteFileName": "remoteEntry.js",
     "modules": [
       {
         "name": "Hello World",
-        "description": "A simple Hello World module",
+        "description": "Calls the extension's public /open/init endpoint and renders the response using the host theme and translations.",
         "module": "./HelloWorld",
         "size": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
       }
